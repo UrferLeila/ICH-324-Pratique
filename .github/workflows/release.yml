@@ -6,7 +6,7 @@ permissions:
   contents: write
 env:
   BUILD_WORKFLOW: build.yml
-  ARTIFACT_NAME: build-artefact
+  ARTIFACT_NAME: build-artifact
 jobs:
   release:
     runs-on: ubuntu-latest
